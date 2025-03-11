@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Vehicule Selection Repository Protocol
 
-protocol VehiculeSelectionRepositoryProtocol {
+protocol VehiculeSelectionServiceProtocol {
     
     /// Loads the ID of the currently selected vehicle
     func loadSelectedVehiculeID() -> String?
@@ -23,7 +23,7 @@ protocol VehiculeSelectionRepositoryProtocol {
 
 // MARK: - Vehicule Selection Repository
 
-final class VehiculeSelectionRepository: VehiculeSelectionRepositoryProtocol {
+final class VehiculeSelectionService: VehiculeSelectionServiceProtocol {
     
     
     ///  key used to store the selected vehicle ID

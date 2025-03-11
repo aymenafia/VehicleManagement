@@ -42,7 +42,7 @@
 		E0A5667A2D7BB84700EA41A6 /* AddVehiculeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566792D7BB84700EA41A6 /* AddVehiculeButtonView.swift */; };
 		E0A5667C2D7BB85900EA41A6 /* VehiculeFeaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5667B2D7BB85700EA41A6 /* VehiculeFeaturesListView.swift */; };
 		E0A5667F2D7BB99100EA41A6 /* VehiculeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5667E2D7BB99100EA41A6 /* VehiculeImageView.swift */; };
-		E0A566822D7C75ED00EA41A6 /* VehiculeSelectionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566812D7C75EA00EA41A6 /* VehiculeSelectionRepository.swift */; };
+		E0A566822D7C75ED00EA41A6 /* VehiculeSelectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566812D7C75EA00EA41A6 /* VehiculeSelectionService.swift */; };
 		E0A566852D7C8DB700EA41A6 /* AddNewVehiculeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566842D7C8DB700EA41A6 /* AddNewVehiculeButton.swift */; };
 		E0A566892D7DB96000EA41A6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566882D7DB96000EA41A6 /* CustomProgressView.swift */; };
 		E0A5668C2D7DBAED00EA41A6 /* Color+CarlyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5668B2D7DBAD700EA41A6 /* Color+CarlyColor.swift */; };
@@ -95,7 +95,7 @@
 		E0A566792D7BB84700EA41A6 /* AddVehiculeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehiculeButtonView.swift; sourceTree = "<group>"; };
 		E0A5667B2D7BB85700EA41A6 /* VehiculeFeaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiculeFeaturesListView.swift; sourceTree = "<group>"; };
 		E0A5667E2D7BB99100EA41A6 /* VehiculeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiculeImageView.swift; sourceTree = "<group>"; };
-		E0A566812D7C75EA00EA41A6 /* VehiculeSelectionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiculeSelectionRepository.swift; sourceTree = "<group>"; };
+		E0A566812D7C75EA00EA41A6 /* VehiculeSelectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiculeSelectionService.swift; sourceTree = "<group>"; };
 		E0A566842D7C8DB700EA41A6 /* AddNewVehiculeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewVehiculeButton.swift; sourceTree = "<group>"; };
 		E0A566882D7DB96000EA41A6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		E0A5668B2D7DBAD700EA41A6 /* Color+CarlyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CarlyColor.swift"; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		E0A5662E2D7B840000EA41A6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				E0A566812D7C75EA00EA41A6 /* VehiculeSelectionRepository.swift */,
+				E0A566812D7C75EA00EA41A6 /* VehiculeSelectionService.swift */,
 				E0A5662B2D7B840000EA41A6 /* VehiculeStorageService.swift */,
 				E0A5662C2D7B840000EA41A6 /* DataServiceError.swift */,
 				E0A5662D2D7B840000EA41A6 /* VehicleDataService.swift */,
@@ -519,7 +519,7 @@
 				E0A5665F2D7B840000EA41A6 /* AddvehiculeFlowViewModel.swift in Sources */,
 				E0A566602D7B840000EA41A6 /* AddVehiculeFlowView.swift in Sources */,
 				E0A566612D7B840000EA41A6 /* VehiculeCellView.swift in Sources */,
-				E0A566822D7C75ED00EA41A6 /* VehiculeSelectionRepository.swift in Sources */,
+				E0A566822D7C75ED00EA41A6 /* VehiculeSelectionService.swift in Sources */,
 				E0A566622D7B840000EA41A6 /* VehiculeListView.swift in Sources */,
 				E0A566632D7B840000EA41A6 /* ContentView.swift in Sources */,
 				E0A566642D7B840000EA41A6 /* DashboardView.swift in Sources */,

@@ -16,7 +16,7 @@ final class VehiculeStore: ObservableObject {
     @Published var error: DataServiceError?
     
     private let repository: VehiculeRepositoryProtocol
-    private let selectionRepository: VehiculeSelectionRepositoryProtocol
+    private let selectionRepository: VehiculeSelectionServiceProtocol
     private let logger: LoggerProtocol
     private var cancellables = Set<AnyCancellable>()
     
@@ -28,7 +28,7 @@ final class VehiculeStore: ObservableObject {
     ///   - logger: Logging utility (defaults to `AppLogger`).
     init(
         repository: VehiculeRepositoryProtocol = VehiculeRepository(),
-        selectionRepository: VehiculeSelectionRepositoryProtocol = VehiculeSelectionRepository(),
+        selectionRepository: VehiculeSelectionServiceProtocol = VehiculeSelectionService(),
         logger: LoggerProtocol = AppLogger()
     ) {
         self.repository = repository
