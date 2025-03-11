@@ -23,7 +23,10 @@ Users can add a new vehicle by following a step-by-step selection process with s
 ### **📋 User Story 2: Vehicles Listing**
 Users can view and manage their saved vehicles and select one.
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/1a36f52d-0894-4673-95b5-48f9e92dca86" alt="Vehicle Creation Flow" width="250" height="550">
+<img src="https://github.com/user-attachments/assets/77ee21fc-df53-476e-92d6-82b925eef8a4" alt="Vehicle Creation Flow" width="250" height="550">
+</div>
 
 ---
 
