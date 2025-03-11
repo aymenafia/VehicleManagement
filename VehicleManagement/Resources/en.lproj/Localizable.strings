@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  VehicleManagement
+
+  Created by Aymen Afia on 09.03.25.
+  
+*/
+//Common
+"ErrorDecription" = "Carly is not accessible at the moment.";
+"ErrorGeneric" = "Error";
+"errorViewRetryButton" = "Retry";
+"OKText" = "OK";
+
+// DashBoard
+
+"DashBoardDiscoverYourCarText" = "Discover your car";
+
+
+// VehiculeList
+
+"VehiculeListAddNewCarButton" = "Add new car";
+"VehiculeListNavigationBarTitleText" = "Your cars";
+"VehiculeListDeletecarAlertButton" = "Press OK to delete this vehicule from Carly.";
+"VehiculeListDeletecarAlertTitleButton" = "Are you sure?";
+// VehiculeCreationFlow
+
+"VehiculeCreationFlowNavigationBarTitleText" = "Car selection";
+"VehiculeCreationFlowSearchBarModelText" = "Search for model ...";
+"VehiculeCreationFlowSearchBarBuildYearText" = "Search for buildyear ...";
+"VehiculeCreationFlowSearchBarBrandYearText" = "Search for brand ...";
+"VehiculeCreationFlowSearchBarFallbackYearText" = "Search ...";
