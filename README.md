@@ -8,9 +8,39 @@ Develop an app for vehicle management that enables users to create, view, and de
 
 ---
 
-## 📸 Screenshots
-<img src="https://github.com/user-attachments/assets/62c5329c-f1d9-46dd-825e-9bab23488156" alt="" width="400"><img src="https://github.com/user-attachments/assets/cc3ce141-65ed-4b62-9856-0bbd77a9fdeb" alt="" width="400">
-<img src="https://github.com/user-attachments/assets/e6fe6e2f-6b63-4bd5-a298-365f2b8cc029" alt="" width="400"><img src="https://github.com/user-attachments/assets/e45e2307-d4cf-4f0e-abd5-6306b3737641" alt="" width="400">
+## **📸 Screenshots & User Stories**
+
+### **🚀 User Story 1: Vehicle Creation Flow**
+Users can add a new vehicle by following a step-by-step selection process.
+
+<img src="https://github.com/user-attachments/assets/cc3ce141-65ed-4b62-9856-0bbd77a9fdeb" alt="Vehicle Creation Flow" width="500">
+
+---
+
+### **📋 User Story 2: Vehicles Listing**
+Users can view and manage their saved vehicles with simulating occasional decoding failures .
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e6fe6e2f-6b63-4bd5-a298-365f2b8cc029" alt="Vehicles List" width="450">
+    <img src="https://github.com/user-attachments/assets/e45e2307-d4cf-4f0e-abd5-6306b3737641" alt="Vehicle Details" width="450">
+</div>
+
+---
+
+### **📊 User Story 3: Dashboard**
+The **dashboard** displays key vehicle details and quick actions.
+
+<img src="https://github.com/user-attachments/assets/62c5329c-f1d9-46dd-825e-9bab23488156" alt="Dashboard" width="500">
+---
+
+
+## **🛠 Features**
+✅ **Dashboard** – Displays selected vehicle information.  
+✅ **Vehicle List** – View, select, and delete vehicles.  
+✅ **Add New Car** – Step-by-step vehicle selection.  
+✅ **Data Persistence** – Save user selections (UserDefault).  
+✅ **Modern UI** – Built with SwiftUI.  
+✅ **Tests** – SortVehicules, SaveVehicules and LoadVehicleData Tests.  
 
 ---
 
