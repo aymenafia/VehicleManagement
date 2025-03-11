@@ -4,7 +4,7 @@ Develop an app for vehicle management that enables users to create, view, and de
 
 
 ![Swift](https://img.shields.io/badge/Language-Swift-orange)
-![Xcode 16.1](https://img.shields.io/badge/IDE-Xcode%2012-blue)
+![Xcode 16](https://img.shields.io/badge/IDE-Xcode%2016-blue)
 
 ---
 
@@ -24,7 +24,11 @@ Develop an app for vehicle management that enables users to create, view, and de
 - **Infrastructure (Configuration & Utilities)**
 - **State Management (VehiculeStore)**
 
+---
+
   ### 🖼 UML Component Diagram
 
 Below is the **UML Component Diagram** for the project:
-<img src="https://github.com/user-attachments/assets/7a72f3e7-6885-4973-b5c4-9f541a60fac7" alt="" width="600">
+
+<img src="https://github.com/user-attachments/assets/7a72f3e7-6885-4973-b5c4-9f541a60fac7" alt="" width="800" height="1300">
+---
