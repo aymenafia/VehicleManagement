@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E0845FB52D802A9300AACCC9 /* VehicleDataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FB42D802A9300AACCC9 /* VehicleDataServiceProtocol.swift */; };
+		E0845FC52D80B38700AACCC9 /* VehicleManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FC32D80B38700AACCC9 /* VehicleManagementTests.swift */; };
+		E0845FC82D80B39700AACCC9 /* NetworkerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FC72D80B39300AACCC9 /* NetworkerSpy.swift */; };
+		E0845FCA2D80B3A300AACCC9 /* VehicleDataServiceSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FC92D80B3A100AACCC9 /* VehicleDataServiceSpy.swift */; };
+		E0845FCC2D80B3AE00AACCC9 /* CarRepositorySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FCB2D80B3AE00AACCC9 /* CarRepositorySpy.swift */; };
+		E0845FD12D80B53B00AACCC9 /* LoadVehicleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FD02D80B52D00AACCC9 /* LoadVehicleDataTests.swift */; };
+		E0845FD32D80BA1D00AACCC9 /* SaveVehiculesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FD22D80BA1B00AACCC9 /* SaveVehiculesTests.swift */; };
+		E0845FD52D80BA9D00AACCC9 /* SortVehiculesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845FD42D80BA9C00AACCC9 /* SortVehiculesTests.swift */; };
 		E0A566522D7B840000EA41A6 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566252D7B840000EA41A6 /* Networker.swift */; };
 		E0A566532D7B840000EA41A6 /* NetworkerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566262D7B840000EA41A6 /* NetworkerMock.swift */; };
 		E0A566542D7B840000EA41A6 /* NetworkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566272D7B840000EA41A6 /* NetworkerProtocol.swift */; };
@@ -58,8 +65,26 @@
 		E0A566B42D7DDB6900EA41A6 /* LocalizedStringKey+LocalizableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A566B32D7DDB6700EA41A6 /* LocalizedStringKey+LocalizableKey.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E0845FBE2D808A3600AACCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A5654D2D7888E200EA41A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A565542D7888E300EA41A6;
+			remoteInfo = VehicleManagement;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E0845FB42D802A9300AACCC9 /* VehicleDataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataServiceProtocol.swift; sourceTree = "<group>"; };
+		E0845FBA2D808A3600AACCC9 /* VehicleManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0845FC32D80B38700AACCC9 /* VehicleManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleManagementTests.swift; sourceTree = "<group>"; };
+		E0845FC72D80B39300AACCC9 /* NetworkerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerSpy.swift; sourceTree = "<group>"; };
+		E0845FC92D80B3A100AACCC9 /* VehicleDataServiceSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataServiceSpy.swift; sourceTree = "<group>"; };
+		E0845FCB2D80B3AE00AACCC9 /* CarRepositorySpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepositorySpy.swift; sourceTree = "<group>"; };
+		E0845FD02D80B52D00AACCC9 /* LoadVehicleDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadVehicleDataTests.swift; sourceTree = "<group>"; };
+		E0845FD22D80BA1B00AACCC9 /* SaveVehiculesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVehiculesTests.swift; sourceTree = "<group>"; };
+		E0845FD42D80BA9C00AACCC9 /* SortVehiculesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVehiculesTests.swift; sourceTree = "<group>"; };
 		E0A565552D7888E300EA41A6 /* VehicleManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A566252D7B840000EA41A6 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		E0A566262D7B840000EA41A6 /* NetworkerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerMock.swift; sourceTree = "<group>"; };
@@ -114,6 +139,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E0845FB72D808A3600AACCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0A565522D7888E300EA41A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,10 +156,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0845FC42D80B38700AACCC9 /* VehicleManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0845FCD2D80B50500AACCC9 /* Tests */,
+				E0845FC62D80B38A00AACCC9 /* Spies */,
+				E0845FC32D80B38700AACCC9 /* VehicleManagementTests.swift */,
+			);
+			path = VehicleManagementTests;
+			sourceTree = "<group>";
+		};
+		E0845FC62D80B38A00AACCC9 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				E0845FCB2D80B3AE00AACCC9 /* CarRepositorySpy.swift */,
+				E0845FC92D80B3A100AACCC9 /* VehicleDataServiceSpy.swift */,
+				E0845FC72D80B39300AACCC9 /* NetworkerSpy.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		E0845FCD2D80B50500AACCC9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0845FD42D80BA9C00AACCC9 /* SortVehiculesTests.swift */,
+				E0845FD22D80BA1B00AACCC9 /* SaveVehiculesTests.swift */,
+				E0845FD02D80B52D00AACCC9 /* LoadVehicleDataTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		E0A5654C2D7888E200EA41A6 = {
 			isa = PBXGroup;
 			children = (
 				E0A566512D7B840000EA41A6 /* VehicleManagement */,
+				E0845FC42D80B38700AACCC9 /* VehicleManagementTests */,
 				E0A565562D7888E300EA41A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A565552D7888E300EA41A6 /* VehicleManagement.app */,
+				E0845FBA2D808A3600AACCC9 /* VehicleManagementTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,6 +480,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E0845FB92D808A3600AACCC9 /* VehicleManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0845FC22D808A3600AACCC9 /* Build configuration list for PBXNativeTarget "VehicleManagementTests" */;
+			buildPhases = (
+				E0845FB62D808A3600AACCC9 /* Sources */,
+				E0845FB72D808A3600AACCC9 /* Frameworks */,
+				E0845FB82D808A3600AACCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0845FBF2D808A3600AACCC9 /* PBXTargetDependency */,
+			);
+			name = VehicleManagementTests;
+			packageProductDependencies = (
+			);
+			productName = VehicleManagementTests;
+			productReference = E0845FBA2D808A3600AACCC9 /* VehicleManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E0A565542D7888E300EA41A6 /* VehicleManagement */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A565632D7888E400EA41A6 /* Build configuration list for PBXNativeTarget "VehicleManagement" */;
@@ -445,6 +529,10 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					E0845FB92D808A3600AACCC9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E0A565542D7888E300EA41A6;
+					};
 					E0A565542D7888E300EA41A6 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -466,11 +554,19 @@
 			projectRoot = "";
 			targets = (
 				E0A565542D7888E300EA41A6 /* VehicleManagement */,
+				E0845FB92D808A3600AACCC9 /* VehicleManagementTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E0845FB82D808A3600AACCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0A565532D7888E300EA41A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +589,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E0845FB62D808A3600AACCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0845FD12D80B53B00AACCC9 /* LoadVehicleDataTests.swift in Sources */,
+				E0845FCA2D80B3A300AACCC9 /* VehicleDataServiceSpy.swift in Sources */,
+				E0845FD52D80BA9D00AACCC9 /* SortVehiculesTests.swift in Sources */,
+				E0845FC82D80B39700AACCC9 /* NetworkerSpy.swift in Sources */,
+				E0845FC52D80B38700AACCC9 /* VehicleManagementTests.swift in Sources */,
+				E0845FD32D80BA1D00AACCC9 /* SaveVehiculesTests.swift in Sources */,
+				E0845FCC2D80B3AE00AACCC9 /* CarRepositorySpy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0A565512D7888E300EA41A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -539,6 +649,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E0845FBF2D808A3600AACCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A565542D7888E300EA41A6 /* VehicleManagement */;
+			targetProxy = E0845FBE2D808A3600AACCC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E0A566AF2D7DD7D000EA41A6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -552,6 +670,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E0845FC02D808A3600AACCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64BD3MXBAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aymen.VehicleManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VehicleManagement";
+			};
+			name = Debug;
+		};
+		E0845FC12D808A3600AACCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64BD3MXBAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aymen.VehicleManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VehicleManagement";
+			};
+			name = Release;
+		};
 		E0A565612D7888E400EA41A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -738,6 +892,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E0845FC22D808A3600AACCC9 /* Build configuration list for PBXNativeTarget "VehicleManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0845FC02D808A3600AACCC9 /* Debug */,
+				E0845FC12D808A3600AACCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E0A565502D7888E200EA41A6 /* Build configuration list for PBXProject "VehicleManagement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
