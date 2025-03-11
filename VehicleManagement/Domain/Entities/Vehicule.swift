@@ -14,15 +14,15 @@ struct Vehicule: Identifiable, Codable, Equatable {
     let brand: String
     let series: String
     let year: Int
-    let model: String
+    let fuelType: FuelType
     let supportedFeatures: [String]
     
-    init(id: UUID = UUID(), brand: String, series: String, year: Int, model: String, supportedFeatures: [String]) {
+    init(id: UUID = UUID(), brand: String, series: String, year: Int, fuelType: FuelType, supportedFeatures: [String]) {
         self.id = id
         self.brand = brand
         self.series = series
         self.year = year
-        self.model = model
+        self.fuelType = fuelType
         self.supportedFeatures = supportedFeatures
     }
 }

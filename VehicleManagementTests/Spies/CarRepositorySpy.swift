@@ -10,8 +10,8 @@ import XCTest
 
 final class VehiculeRepositorySpy: VehiculeRepositoryProtocol {
     var mockVehicules: [Vehicule] = [
-        Vehicule(brand: "BMW", series: "M3", year: 2021, model: "G80", supportedFeatures: ["Heated Seats"]),
-        Vehicule(brand: "Tesla", series: "Model 3", year: 2022, model: "Performance", supportedFeatures: ["Autopilot"])
+        Vehicule(brand: "BMW", series: "M3", year: 2021, fuelType: .diesel, supportedFeatures: ["Heated Seats"]),
+        Vehicule(brand: "Tesla", series: "Model 3", year: 2022, fuelType: .diesel, supportedFeatures: ["Autopilot"])
     ]
 
     func loadVehicules() -> [Vehicule] {

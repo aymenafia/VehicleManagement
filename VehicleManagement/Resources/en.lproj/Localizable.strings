@@ -29,3 +29,12 @@
 "VehiculeCreationFlowSearchBarBuildYearText" = "Search for buildyear ...";
 "VehiculeCreationFlowSearchBarBrandYearText" = "Search for brand ...";
 "VehiculeCreationFlowSearchBarFallbackYearText" = "Search ...";
+
+// FuelTypes
+
+"fuelType.gasoline" = "Gasoline";
+"fuelType.diesel" = "Diesel";
+"fuelType.hybrid" = "Hybrid";
+"fuelType.electric" = "Electric";
+"fuelType.other" = "Other";
+

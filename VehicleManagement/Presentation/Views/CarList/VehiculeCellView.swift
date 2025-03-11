@@ -33,6 +33,7 @@ struct VehiculeCellView: View {
         .background(Color.theme.backgroundDarkColor)
         .clipShape(RoundedRectangle(cornerRadius: 8))
         .contentShape(RoundedRectangle(cornerRadius: 8))
+        .overlay(selectionBorder)
         .onTapGesture(perform: onTap)
     }
     
@@ -41,7 +42,7 @@ struct VehiculeCellView: View {
             Text("\(vehicule.brand) \(vehicule.series)")
                 .body1()
                 .foregroundColor(Color.theme.fontLightColor)
-            Text("\(String(vehicule.year)) - \(vehicule.model)")
+            Text("\(String(vehicule.year)) - \(vehicule.fuelType.localizedString)")
                 .caption()
                 .foregroundColor(Color.theme.fontDarkColor)
         }
@@ -71,7 +72,7 @@ struct VehiculeCellView_Previews: PreviewProvider {
         brand: "BMW",
         series: "3 Series",
         year: 2010,
-        model: "Luxury",
+        fuelType: .diesel,
         supportedFeatures: ["Leather Seats", "Premium Audio"]
     )
     

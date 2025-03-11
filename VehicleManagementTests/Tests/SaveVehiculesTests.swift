@@ -17,7 +17,7 @@ final class SaveVehiculesTests: XCTestCase {
     }
 
     func testSaveVehicules() {
-        let newVehicule = Vehicule(brand: "Audi", series: "A4", year: 2023, model: "Sport", supportedFeatures: ["Bluetooth"])
+        let newVehicule = Vehicule(brand: "Audi", series: "A4", year: 2023, fuelType: .diesel, supportedFeatures: ["Bluetooth"])
         repository.saveVehicules([newVehicule])
 
         XCTAssertEqual(repository.mockVehicules.count, 1)

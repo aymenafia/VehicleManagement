@@ -144,7 +144,7 @@ struct VehiculeListView_Previews: PreviewProvider {
         brand: "Audi",
         series: "A4",
         year: 2010,
-        model: "S-Line",
+        fuelType: .electric,
         supportedFeatures: ["Basic Audio", "Air Conditioning", "Power Steering"]
     )
     
@@ -152,7 +152,7 @@ struct VehiculeListView_Previews: PreviewProvider {
         brand: "BMW",
         series: "3 Series",
         year: 2012,
-        model: "Luxury",
+        fuelType: .gasoline,
         supportedFeatures: ["Leather Seats", "Premium Audio"]
     )
     

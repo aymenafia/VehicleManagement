@@ -33,8 +33,8 @@ struct YearData: Codable, Equatable, Hashable {
     let year: Int
     let supportedFeatures: [String]
     
-    var availableFuelTypes: [String] {
-        return FuelType.allCases.map { $0.rawValue }
+    var availableFuelTypes: [FuelType] {
+        return FuelType.allCases
     }
 }
 

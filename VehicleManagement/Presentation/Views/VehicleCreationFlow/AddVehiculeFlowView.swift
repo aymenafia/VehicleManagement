@@ -134,7 +134,7 @@ struct AddVehiculeFlowView: View {
                 title: "\(brand.name), \(series.name), \(year.description)",
                 items: viewModel.filteredFuelTypes,
                 onSelect: { fuelType in
-                    viewModel.selectModel(fuelType)
+                    viewModel.selectFuelType(fuelType)
                     if let newVehicule = viewModel.completeSelection() {
                         onComplete(newVehicule)
                         coordinator.popToRoot()

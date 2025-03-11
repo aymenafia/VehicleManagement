@@ -36,6 +36,14 @@ enum LocalizableKey: String {
     case VehiculeCreationFlowSearchBarBuildYearText
     case VehiculeCreationFlowSearchBarBrandYearText
     case VehiculeCreationFlowSearchBarFallbackYearText
+    
+    // MARK: - Fuel Type Strings
+
+    case FuelTypeGasoline
+    case FuelTypeDiesel
+    case FuelTypeHybrid
+    case FuelTypeElectric
+    case FuelTypeOther
 }
 
 // MARK: - Localized String Key Extension

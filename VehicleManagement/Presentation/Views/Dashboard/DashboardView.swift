@@ -102,7 +102,7 @@ struct DashboardView_Previews: PreviewProvider {
             brand: "Audi",
             series: "A4",
             year: 2010,
-            model: "S-Line",
+            fuelType: .gasoline,
             supportedFeatures: ["Basic Audio", "Air Conditioning", "Power Steering"]
         )
         

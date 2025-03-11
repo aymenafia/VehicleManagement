@@ -36,7 +36,7 @@ struct VehiculeHeaderView: View {
                 .title()
                 .foregroundColor(.white)
             
-            Text("\(String(vehicule.year)) - \(vehicule.model)")
+            Text("\(String(vehicule.year)) - \(vehicule.fuelType.localizedString)")
                 .body2()
                 .foregroundColor(.white)
         }
@@ -61,7 +61,7 @@ struct VehiculeHeaderView_Previews: PreviewProvider {
         brand: "Tesla",
         series: "Model S",
         year: 2022,
-        model: "Plaid",
+        fuelType: .hybrid,
         supportedFeatures: ["Autopilot", "Full Self-Driving"]
     )
     

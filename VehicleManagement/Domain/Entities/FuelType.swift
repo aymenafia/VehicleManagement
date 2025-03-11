@@ -7,21 +7,20 @@
 
 import Foundation
 
-// MARK: - FuelType Enum
+// MARK: - FuelType
 
 enum FuelType: String, CaseIterable, Codable, CustomStringConvertible {
-    
-    // MARK: - Cases
-    
-    case gasoline = "Gasoline"
-    case diesel = "Diesel"
-    case hybrid = "Hybrid"
-    case electric = "Electric"
-    case other = "Other"
-    
-    // MARK: - Properties
-    
+    case gasoline = "fuelType.gasoline"
+    case diesel = "fuelType.diesel"
+    case hybrid = "fuelType.hybrid"
+    case electric = "fuelType.electric"
+    case other = "fuelType.other"
+
+    var localizedString: String {
+        NSLocalizedString(self.rawValue, comment: "")
+    }
+
     var description: String {
-        rawValue
+        localizedString
     }
 }

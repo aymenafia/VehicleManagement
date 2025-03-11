@@ -71,9 +71,15 @@ struct SelectionListView<Item: Hashable & CustomStringConvertible>: View {
     
     private func itemRow(for item: Item) -> some View {
         HStack {
-            Text(item.description)
-                .foregroundColor(Color.theme.fontDarkColor)
-                .body2()
+            if let fuelType = item as? FuelType {
+                Text(fuelType.localizedString)
+                    .foregroundColor(Color.theme.fontDarkColor)
+                    .body2()
+            } else {
+                Text(item.description)
+                    .foregroundColor(Color.theme.fontDarkColor)
+                    .body2()
+            }
             Spacer()
             
             Circle()

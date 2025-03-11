@@ -85,23 +85,25 @@ final class AddVehiculeFlowViewModel: ObservableObject {
         filteredFuelTypes = FuelType.allCases
     }
     
-    func selectModel(_ vehicleModel: FuelType) {
-        selectedVehicleFuelType = vehicleModel
+    func selectFuelType(_ fuelType: FuelType) {
+        selectedVehicleFuelType = fuelType
     }
+
     
     func completeSelection() -> Vehicule? {
         guard let brand = selectedBrand,
               let series = selectedSeries,
               let year = selectedYear,
-              let vehicleModel = selectedVehicleFuelType else {
+              let fuelType = selectedVehicleFuelType else {
             return nil
         }
-        
+
         return Vehicule(
+            id: UUID(),
             brand: brand.name,
             series: series.name,
             year: year.year,
-            model: vehicleModel.rawValue,
+            fuelType: fuelType,
             supportedFeatures: year.supportedFeatures
         )
     }
