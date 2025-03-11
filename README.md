@@ -11,7 +11,7 @@ Develop an app for vehicle management that enables users to create, view, and de
 ## **📸 Screenshots & User Stories**
 
 ### **🚀 User Story 1: Vehicle Creation Flow**
-Users can add a new vehicle by following a step-by-step selection process.
+Users can add a new vehicle by following a step-by-step selection process with simulating occasional decoding failures.
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/e6fe6e2f-6b63-4bd5-a298-365f2b8cc029" alt="Vehicles List" width="250" height="550">
@@ -21,15 +21,14 @@ Users can add a new vehicle by following a step-by-step selection process.
 ---
 
 ### **📋 User Story 2: Vehicles Listing**
-Users can view and manage their saved vehicles with simulating occasional decoding failures .
+Users can view and manage their saved vehicles and select one.
 
-<img src="https://github.com/user-attachments/assets/cc3ce141-65ed-4b62-9856-0bbd77a9fdeb" alt="Vehicle Creation Flow" width="250" height="550">
-
+<img src="https://github.com/user-attachments/assets/1a36f52d-0894-4673-95b5-48f9e92dca86" alt="Vehicle Creation Flow" width="250" height="550">
 
 ---
 
 ### **📊 User Story 3: Dashboard**
-The **dashboard** displays key vehicle details and quick actions.
+The **dashboard** displays key vehicle details.
 
 <img src="https://github.com/user-attachments/assets/62c5329c-f1d9-46dd-825e-9bab23488156" alt="Dashboard" width="250" height="550">
 ---
