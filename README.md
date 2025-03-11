@@ -38,19 +38,37 @@ The **dashboard** displays key vehicle details and quick actions.
 ## **🛠 Features**
 ✅ **Dashboard** – Displays selected vehicle information.  
 ✅ **Vehicle List** – View, select, and delete vehicles.  
-✅ **Add New Car** – Step-by-step vehicle search and selection .  
+✅ **Add New Car** – Step-by-step vehicle search and save .  
 ✅ **Data Persistence** – Save user selections (UserDefault).  
 ✅ **Modern UI** – Built with SwiftUI.  
 ✅ **Tests** – SortVehicules, SaveVehicules and LoadVehicleData Tests.  
 
 ---
 
+
+## 🌐 Localization
+
+The application is fully localized in:
+
+- 🇺🇸 English
+- 🇩🇪 German
+  
+---
+
+## 🖥 Supported Platforms
+
+The application is fully localized in:
+
+- iOS 17.0+
+- Compatible with iPhone (Portrait mode only)
+  
+---
 ## 🏗 Architecture Overview
 
- Vehicule Management follows **Clean Architecture**, ensuring a clear separation of concerns. The project is divided into multiple layers:
+ Vehicule Management is divided into multiple layers:
 
 - **Presentation Layer (UI & ViewModels)**
-- **Domain Layer (Entities & Protocols)**
+- **Domain Layer (Entities)**
 - **Data Layer (Repositories, Services, and Networking)**
 - **Infrastructure (Configuration & Utilities)**
 - **State Management (VehiculeStore)**
